@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: SFBars
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity
+    Asset Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=17800\n326.4;0;1209;811;3740.698;1185.372;2.712249;False;False\nNode;AmplifyShaderEditor.CommentaryNode;71;-1769.501,-101.838;Inherit;False;850.7778;327.996;Smooth
+    Bars;6;59;58;63;55;67;68;;0,1,0.6979692,1;0;0\nNode;AmplifyShaderEditor.CommentaryNode;51;-2652.176,-588.5157;Inherit;False;1422.351;457.2382;Settings;15;20;16;14;23;13;4;11;6;12;17;26;3;52;72;73;;1,0.5408292,0,1;0;0\nNode;AmplifyShaderEditor.CommentaryNode;45;-3598.536,-832.2901;Inherit;False;882.2175;920.1208;Axis
+    Selection and Direction;13;38;35;40;42;43;41;39;32;34;10;33;36;44;;0.004716992,0.5696679,1,1;0;0\nNode;AmplifyShaderEditor.FunctionSwitch;41;-3252.335,-375.6044;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PosVertexDataNode;10;-3566.983,-165.9494;Inherit;True;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.FunctionSwitch;32;-3249.523,-143.1491;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;35;-2933.683,-533.1094;Inherit;False;Option;False;1;3;-1;In
+    0;In 1;In 2;Instance;36;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;70;-906.0349,-332.5532;Inherit;False;Smooth
+    Bars;True;0;2;-1;In 0;In 1;Object;-1;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;33;-3254.042,-759.1993;Inherit;False;Horizontal;True;0;2;-1;In
+    0;In 1;Object;-1;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.WireNode;52;-2369.798,-257.8407;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;34;-3252.82,-34.45666;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PosVertexDataNode;43;-3566.571,-638.5228;Inherit;True;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.StepOpNode;3;-1417.105,-345.5676;Inherit;False;2;0;FLOAT;0.5;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;38;-2925.623,-228.0798;Inherit;False;Option;False;1;3;-1;In
+    0;In 1;In 2;Instance;36;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;26;-2211.117,-302.4471;Inherit;False;Position;1;3;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;44;-3249.112,-615.7226;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;14;-2329.113,-429.7933;Inherit;False;Bar
+    Count;1;2;False;1;0;FLOAT;5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;40;-3255.632,-266.9121;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.PosVertexDataNode;39;-3569.794,-398.4046;Inherit;True;0;0;5;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4\nNode;AmplifyShaderEditor.SimpleAddOpNode;17;-1958.281,-298.8276;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;42;-3252.408,-507.0302;Inherit;False;Option;True;0;2;-1;In
+    0;In 1;Instance;33;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.OneMinusNode;58;-1719.501,15.19178;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleRemainderNode;4;-1680.844,-321.6983;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;13;-1984.959,-538.5157;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;1.8;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;23;-2623.048,-515.012;Inherit;False;Slant;1;1;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;16;-2082.853,-281.7871;Inherit;False;Offset;1;4;False;1;0;FLOAT;5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;36;-3536.965,-782.2901;Inherit;False;Face
+    Axis;False;1;3;-1;X;Y;Z;Object;-1;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionSwitch;72;-2180.853,-433.4889;Inherit;False;Pulse
+    Mode;True;0;2;-1;In 0;In 1;Object;-1;9;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;0;False;3;FLOAT;0;False;4;FLOAT;0;False;5;FLOAT;0;False;6;FLOAT;0;False;7;FLOAT;0;False;8;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;20;-1869.364,-211.587;Inherit;False;Spacing;1;0;False;1;0;FLOAT;0.5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;63;-1456.766,-6.715582;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;11;-2294.028,-533.4889;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SmoothstepOpNode;55;-1324.774,-51.83797;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SmoothstepOpNode;67;-1325.143,68.95799;Inherit;False;3;0;FLOAT;0;False;1;FLOAT;1;False;2;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.TFHCCompareLower;68;-1134.723,-51.20218;Inherit;False;4;0;FLOAT;0;False;1;FLOAT;1;False;2;FLOAT;0;False;3;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;6;-1820.264,-321.6136;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;12;-2459.342,-533.8922;Inherit;False;2;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleDivideOpNode;59;-1577.898,15.66787;Inherit;False;2;0;FLOAT;0;False;1;FLOAT;2;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;73;-2348.853,-353.4889;Inherit;False;Constant;_FillBar;Fill
+    Bar;0;0;Create;True;0;0;False;0;0;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;57;-692.2467,-332.6973;Inherit;True;True;-1;Output;0;True;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;41;0;39;3\nWireConnection;41;1;39;1\nWireConnection;32;0;10;2\nWireConnection;32;1;10;1\nWireConnection;35;0;44;0\nWireConnection;35;1;41;0\nWireConnection;35;2;32;0\nWireConnection;70;0;3;0\nWireConnection;70;1;68;0\nWireConnection;52;0;38;0\nWireConnection;34;0;10;1\nWireConnection;34;1;10;2\nWireConnection;3;0;20;0\nWireConnection;3;1;4;0\nWireConnection;38;0;42;0\nWireConnection;38;1;40;0\nWireConnection;38;2;34;0\nWireConnection;44;0;43;2\nWireConnection;44;1;43;3\nWireConnection;40;0;39;1\nWireConnection;40;1;39;3\nWireConnection;17;0;26;0\nWireConnection;17;1;16;0\nWireConnection;42;0;43;3\nWireConnection;42;1;43;2\nWireConnection;58;0;20;0\nWireConnection;4;0;6;0\nWireConnection;13;0;11;0\nWireConnection;13;1;72;0\nWireConnection;72;0;14;0\nWireConnection;72;1;73;0\nWireConnection;63;0;20;0\nWireConnection;63;1;59;0\nWireConnection;11;0;12;0\nWireConnection;11;1;52;0\nWireConnection;55;0;4;0\nWireConnection;55;1;20;0\nWireConnection;55;2;63;0\nWireConnection;67;0;4;0\nWireConnection;67;2;63;0\nWireConnection;68;0;55;0\nWireConnection;68;2;55;0\nWireConnection;68;3;67;0\nWireConnection;6;0;13;0\nWireConnection;6;1;17;0\nWireConnection;12;0;35;0\nWireConnection;12;1;23;0\nWireConnection;59;0;58;0\nWireConnection;57;0;70;0\nASEEND*/\n//CHKSM=14AD0B4FFA274F4CC4C1974CDDD993661496CBDD"
+  m_functionName: 
+  m_description: "Generates Bars or Flashing Pattern\n=========================\nSPACING:
+    0f to 1f (.1f = 10% space)\n\nSLANT: -1f to 1f (-45\xB0 to 45\xB0)\n\nBAR COUNT:
+    .1f+\n\nPOSITION: Best used with time to create a scrolling effect. Start using
+    the BAR COUNT's float for full coverage. Scrolling in can be acheived by starting
+    from negative BAR COUNT.\n\nOFFSET: Useful when using multiple SFBars to have
+    bars of different sizes and spacing\n\nHORIZONTAL: sets bars' base orientation\n\nFACE
+    AXIS: direction bars are facing\n\nSMOOTH BARS: Add a gradient to the bars\n\nPULSE
+    MODE: Uses the pattern you created with the bars to pulse. Requires time to be
+    used on POSITION. Smooth on/off using SMOOTH BARS"
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesIndex: -1
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 3
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0
